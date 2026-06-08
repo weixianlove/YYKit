@@ -246,7 +246,7 @@
             static UIImage *placeholder;
             static dispatch_once_t onceToken;
             dispatch_once(&onceToken, ^{
-                CGRect rect = CGRectMake(0, 0, mag.width, mag.height);
+                CGRect rect = CGRectMake(0, 0, mag.yy_width, mag.yy_height);
                 UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
                 CGContextRef context = UIGraphicsGetCurrentContext();
                 [[UIColor colorWithWhite:1 alpha:0.8] set];

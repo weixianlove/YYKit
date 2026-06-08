@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99976EBA2C071FF70065CC07 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 99976EB92C071FF60065CC07 /* PrivacyInfo.xcprivacy */; };
 		ABDC320D1BEAFB870012A159 /* YYTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */; };
 		D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF01B975D3900F346EB /* YYTextExampleHelper.m */; };
 		D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF31B9813B500F346EB /* YYTextEditExample.m */; };
@@ -196,6 +197,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99976EB92C071FF60065CC07 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ABDC320B1BEAFB870012A159 /* YYTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTagExample.h; sourceTree = "<group>"; };
 		ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTagExample.m; sourceTree = "<group>"; };
 		D9067DEF1B975D3900F346EB /* YYTextExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextExampleHelper.h; sourceTree = "<group>"; };
@@ -857,6 +859,7 @@
 		D9B25F9F1BEE79370038C00A /* YYKit */ = {
 			isa = PBXGroup;
 			children = (
+				99976EB92C071FF60065CC07 /* PrivacyInfo.xcprivacy */,
 				D9B2604F1BEE79370038C00A /* YYKit.h */,
 				D9B25FA01BEE79370038C00A /* Base */,
 				D9B260061BEE79370038C00A /* Model */,
@@ -1214,6 +1217,7 @@
 				D939F74D1B7E0254003EEC6A /* ermilio.png in Resources */,
 				D939F5E51B7CB04D003EEC6A /* dribbble256_imageio.png in Resources */,
 				D9700D971BC7C16900F878A4 /* weibo_0.json in Resources */,
+				99976EBA2C071FF70065CC07 /* PrivacyInfo.xcprivacy in Resources */,
 				D9971BB51B85023300A7B424 /* EmoticonWeibo.bundle in Resources */,
 				D97484E419CAAD2900F46DE1 /* LaunchScreen.xib in Resources */,
 				D91A995B1B5ACF2A00EF3A3E /* niconiconi@2x.gif in Resources */,
@@ -1499,7 +1503,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1527,7 +1531,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
